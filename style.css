@@ -1,0 +1,7 @@
+h1{
+  color: purple;
+}
+
+a:hover{color:blue;}
+a:active{color:red;}
+a:visited{color:#989898;}
