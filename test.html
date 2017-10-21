@@ -9,7 +9,15 @@
 
   <script src="./randomcolor.js"></script>
 
-  <base href="file:///C:/Users/JT/Desktop/HTML/test1/" />
+  <!-- jQuery 사용  -->
+  <script src="./lib/jQuery/jquery-3.2.1.min.js"></script>
+  <script>
+   jQuery( document ).ready(function( $ ) {
+     $('h1').prepend('<h2>Hello world</h2>');
+   });
+   </script>
+
+  <base href="file:///C:/Users/JT/Desktop/HTML/htmlTutorial/" />
   <link rel="stylesheet" href="./style.css">
   <!-- <link rel="icon" href="icon.ico" /> -->
 
@@ -21,10 +29,12 @@
 
 <body onload="alert('Hello')">
 
+
   <div id="wrapper">
 
 
     <h1>Chnage with a click</h1>
+    <script src="./randomcolor.js"></script>
 
     <a name="pageTop">Top of Page</a>
     <a href="test.html#pageTop">Top of page</a>
@@ -40,7 +50,7 @@
 
 
 
-      <!-- 토글  -->
+    <!-- 토글  -->
     <a href="javascript:toggleImg()">Toggle Image</a><br>
     <p>
       Two hunters are out in the woods when one of,,asdasd <br> Good...
@@ -63,6 +73,10 @@
       var <var>h1tags</var> = docu...
     </code>
 
+    <input type="button" id="hm" value="Hello" />
+    <script src="./randomcolor.js"></script>
+
+    </script>
     </pre>
   </div>
 </body>
